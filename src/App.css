@@ -356,6 +356,73 @@ gap: 50px;
   gap: 20px;
 }
 
+
+/* blog page */
+.BlogHeader{
+  background-color: #212D45;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+  gap: 30px;
+}
+.BlogHeader h2{
+  color: #fff;
+}
+.searchBar{
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchBar form{
+  width: 100%;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.searchBar input{
+  background-color: none;
+  outline: none;
+  color: #212D45;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.searchBar button{
+  background-color: #212D45;
+  padding: 10px 30px;
+  border: 1px #d5d2d2 solid;
+  border-radius: 0 10px 10px 0;
+}
+.menulinks{
+  width: 100%;
+  margin : 0 auto;
+  overflow-x: hidden;
+}
+.catLink{
+  padding: 50px;
+  width: 100%;
+  display: grid;
+  overflow-x: scroll;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.catLink a{
+  width: 250px;
+  color: #887040;
+  font-size: 12px;
+}
+.blogBody{
+  padding: 0 50px;
+}
+.cardsection{
+
+}
+
 /* tablet screens breakpoint */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   /* Tablet-specific styles */
@@ -777,5 +844,53 @@ h3{
 .footright p{
   font-size: 16px !important;
 
+}
+
+/* blog page */
+.BlogHeader{
+  background-color: #212D45;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+  gap: 30px;
+}
+.BlogHeader h2{
+  color: #fff;
+}
+.searchBar{
+  width: 50%;
+}
+.searchBar form{
+
+}
+.searchBar input{
+}
+.catLink a{
+  width: 280px;
+  color: #887040;
+  font-size: 16px;
+}
+.menulinks{
+  width: 80%;
+}
+
+.blogBody{
+  padding: 50px 300px !important;
+}
+.cardsection{
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+.titleandfilter{
+  display: flex;
+  justify-content: space-between;
+}
+.titleandfilter h2{
+  font-size: 24px;
 }
 }

@@ -68,7 +68,7 @@ function Header() {
             <a href="#contact-us">Contact Us</a>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link to="/blog" href="/blog">Blog</Link>
           </li>
         </ul>
 

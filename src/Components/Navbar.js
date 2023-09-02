@@ -16,7 +16,7 @@ export default function NavBar() {
       <div className="header">
         <div className="newhead">
           <div className="head flex items-center justify-between py-3 lg:py-5 md:block">
-            <a href="">
+            <a href="/">
               <img src={logo} alt="Logo" className="logo" />
             </a>
             <div className="lg:hidden">
@@ -74,7 +74,7 @@ export default function NavBar() {
                 <a href="#Contantus">Contact uS</a>
               </li>
               <li className="text-white hover:text-indigo-200">
-                <a href="">Blog</a>
+                <a href="/blog">Blog</a>
               </li>
             </ul>
 
@@ -88,11 +88,11 @@ export default function NavBar() {
                 </a>
               </div>
               <div className="mobile-menues  text-[#212D44] flex flex-col my-6 gap-4 border-y-[1px] border-[#212D44] py-7 ">
-                <p>Why ProjectBist</p>
-                <p>Our Services</p>
-                <p>About Us</p>
-                <p>Contact Us</p>
-                <p>Blog</p>
+                <a href="">Why ProjectBist</a>
+                <a href=""><p>Our Services</p></a>
+                <a href=""><p>About Us</p></a>
+                <a href=""><p>Contact Us</p></a>
+                <a href="/blog"><p>Blog</p></a>
               </div>
               <div className="mobile-menues text-[#212D44] flex flex-col gap-4  py-7  ">
                 <p>Lagos, Nigeria</p>

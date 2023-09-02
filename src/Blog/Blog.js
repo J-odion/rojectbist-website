@@ -13,7 +13,7 @@ export default function BlogPage() {
   return (
     <div>
       <HeaderComponent />
-      <Swiper
+      {/* <Swiper
       spaceBetween={50}
       slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
@@ -24,7 +24,7 @@ export default function BlogPage() {
       <SwiperSlide>Slide 3</SwiperSlide>
       <SwiperSlide>Slide 4</SwiperSlide>
       ...
-    </Swiper>
+    </Swiper> */}
 
       <div className="blogBody">
       <CardSection />

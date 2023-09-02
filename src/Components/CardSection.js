@@ -24,7 +24,7 @@ export default function CardSection() {
               consequat ac. Sem morbi nulla imperdiet arcu id. Lorem ipsum dolor
               sit amet consectetur.
             </p>
-            <a className="innerboxbutton" href="">
+            <a className="innerboxbutton" href="/single-blog">
               Read More
             </a>
           </div>
@@ -40,7 +40,7 @@ export default function CardSection() {
               consequat ac. Sem morbi nulla imperdiet arcu id. Lorem ipsum dolor
               sit amet consectetur.
             </p>
-            <a className="innerboxbutton" href="">
+            <a className="innerboxbutton" href="/single-blog">
               Read More
             </a>
           </div>
@@ -56,7 +56,7 @@ export default function CardSection() {
               consequat ac. Sem morbi nulla imperdiet arcu id. Lorem ipsum dolor
               sit amet consectetur.
             </p>
-            <a className="innerboxbutton" href="">
+            <a className="innerboxbutton" href="/single-blog">
               Read More
             </a>
           </div>
@@ -72,7 +72,7 @@ export default function CardSection() {
               consequat ac. Sem morbi nulla imperdiet arcu id. Lorem ipsum dolor
               sit amet consectetur.
             </p>
-            <a className="innerboxbutton" href="">
+            <a className="innerboxbutton" href="/single-blog">
               Read More
             </a>
           </div>
@@ -88,7 +88,7 @@ export default function CardSection() {
               consequat ac. Sem morbi nulla imperdiet arcu id. Lorem ipsum dolor
               sit amet consectetur.
             </p>
-            <a className="innerboxbutton" href="">
+            <a className="innerboxbutton" href="/single-blog">
               Read More
             </a>
           </div>
@@ -104,7 +104,7 @@ export default function CardSection() {
               consequat ac. Sem morbi nulla imperdiet arcu id. Lorem ipsum dolor
               sit amet consectetur.
             </p>
-            <a className="innerboxbutton" href="">
+            <a className="innerboxbutton" href="/single-blog">
               Read More
             </a>
           </div>
@@ -120,7 +120,7 @@ export default function CardSection() {
               consequat ac. Sem morbi nulla imperdiet arcu id. Lorem ipsum dolor
               sit amet consectetur.
             </p>
-            <a className="innerboxbutton" href="">
+            <a className="innerboxbutton" href="/single-blog">
               Read More
             </a>
           </div>
@@ -136,7 +136,7 @@ export default function CardSection() {
               consequat ac. Sem morbi nulla imperdiet arcu id. Lorem ipsum dolor
               sit amet consectetur.
             </p>
-            <a className="innerboxbutton" href="">
+            <a className="innerboxbutton" href="/single-blog">
               Read More
             </a>
           </div>

@@ -1,5 +1,7 @@
 import BottomSectionBlog from "../Components/BottomSectionBlog";
 import HeaderComponent from "../Components/Header";
+import image from '../assets/img/blogimg.svg'
+
 
 
 
@@ -33,6 +35,25 @@ export default function SingleBlog(){
                 Sit dis vivamus purus tincidunt nisl.  
                 </p>
 
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Hac et gravida at ultrices amet id massa ornare. Nisl consequat, 
+                integer sed arcu mauris. Convallis amet, lacus, massa donec nulla. Amet, 
+                imperdiet adipiscing mi, justo, mi. Odio malesuada non cras elit, 
+                imperdiet nec. Maecenas vitae pellentesque a duis viverra libero sit. 
+                Sit dis vivamus purus tincidunt nisl.  
+                </p>
+
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Hac et gravida at ultrices amet id massa ornare. Nisl consequat, 
+                integer sed arcu mauris. Convallis amet, lacus, massa donec nulla. Amet, 
+                imperdiet adipiscing mi, justo, mi. Odio malesuada non cras elit, 
+                imperdiet nec. Maecenas vitae pellentesque a duis viverra libero sit. 
+                Sit dis vivamus purus tincidunt nisl.  
+                </p>
+
+                <img src={image}/>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Hac et gravida at ultrices amet id massa ornare. Nisl consequat, 

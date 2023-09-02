@@ -1027,7 +1027,41 @@ h3{
 /* single post */
 .singlepost{
   display: flex;
-  padding: 40px;
+  padding: 100px;
   background-image: url('./assets/img/blogimg.svg');
+  background-color: rgba(33, 45, 69, 0.5);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 20%;
+}
+.singlepost .post{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #fff;
+  width: 40%;
+}
+.singlepost .post span{
+  font-size: 16px;
+  color: #fafafa;
+}
+.singlepost .post h2{
+  font-size: 30px;
+  color: #F5F6FA;
+}
+.singlepostbody{
+  padding: 50px 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.singlepostbody img{
+  height: 400px;
+  object-fit: cover;
+}
+.singlepostbody p{
+  font-size: 14px;
+  justify-content: stretch;
+  text-justify: distribute;
 }
 }

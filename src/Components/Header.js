@@ -1,5 +1,5 @@
 import React from "react";
-import search from "../assets/img/Frame 10122026.svg";
+import search from "../assets/img/search.svg";
 
 function HeaderComponent() {
   return (
